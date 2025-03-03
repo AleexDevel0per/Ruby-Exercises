@@ -13,5 +13,5 @@ if age < 18
 elsif age.between?(18, 64)
   puts "Você é um adulto"
 else
-  puts "Você é um idoso"
+  puts "Você faz parte da melhor idade!"
 end
