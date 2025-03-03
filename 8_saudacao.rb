@@ -19,11 +19,11 @@ time = gets.chomp.to_i
 
 case time
 when 0..11
-  puts "Bom dia Sr.(a) #{name}, como vai sua manhã?"
+  puts "Bom dia, Sr(a). #{name}, como está sua manhã?"
 when 12..17
-  puts "Boa tarde Sr.(a) #{name}, como vai sua tarde?"
+  puts "Boa tarde Sr(a). #{name}, como está a sua tarde?"
 when 18..23
-  puts "Boa noite Sr.(a) #{name}, como vai a sua noite?"
+  puts "Boa noite Sr(a). #{name}, como está a sua noite?"
 else
   puts "Hora informada está inválida"
 end
