@@ -23,5 +23,5 @@ when 3..4
 when 0..2
     puts "Classificando sua nota, ela seria uma nota F"
 else
-    puts "Nota digitada inválida"
+    puts "O valor digitado é inválido"
 end
